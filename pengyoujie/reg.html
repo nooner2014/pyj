@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-itunes-app" content="app-id=821445246">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="format-detection" content="telphone=no">
+    <link rel="stylesheet" href="css/core.css">
+    <link rel="stylesheet" href="css/reg.css">
+	<link type="image/x-icon" href="favicon.ico" rel="icon">
+    <!--<link rel="stylesheet" href="style/screen.css">-->
+    <title>朋友街邀请注册</title>
+	<script type="text/javascript" src="js/jquery-1.js"></script>
+    <style>
+        @-ms-viewport {
+        width: 640px;
+    }
+    </style>
+    <style>
+        input[type=text],input[type=password],input[type=tel] { 
+            background:#e3e3e3; 
+            border-radius:5px; 
+            border:0; 
+            box-shadow:none; 
+            -webkit-box-shadow:none; 
+            height:50px
+        }
+        .text { 
+            text-align:center; 
+            font-family:微软雅黑; 
+            border-bottom:1px solid #efefef; 
+            padding-bottom:20px
+        }
+        .text p:nth-child(1) { color:#f90; font-size:24px}
+        .text p:nth-child(2) { color:#999}
+        /*注册协议*/
+        .nav ul li.thisclass a{
+            background-image: url(images/li_up.jpg);
+            background-repeat:no-repeat;
+            background-position: center center;
+            color:#0871B3;    
+        }
+    </style>
+</head>
+
+<body style="background:#fff">
+<img src="images/reg/1.png" style="width:100%">
+
+<div id="wrap">
+    <div class="reg-form">
+        <form id="reg-form">
+            <div id="inv-code-box">
+                <text type="text">邀请码：</text>
+                <div id="rec-ipt"><span>26331410</span><p class="notice"></p></div>
+            </div>
+            <div>
+                <input onkeyup="value=value.replace(/[^\d]/g,'')" onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))" id="reg-phone" placeholder="手机号码" maxlength="11" required="" autocomplete="off" type="tel">
+                <p class="notice"></p>
+            </div>
+            <div id="msg-code-box">
+                <input onkeyup="value=value.replace(/[^\d]/g,'')" onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))" id="msg-code" placeholder="短信验证码" maxlength="6" autocomplete="off" type="tel">
+                <input id="get-msg-code" class="subbtn" value="获取短信验证码" style="color:#fff; border:0;-webkit-appearance: none;" type="button">
+            </div>
+            <div>
+                <input id="login-pwd" placeholder="登录密码" maxlength="20" required="" autocomplete="off" autocapitalize="off" type="password">
+                <p class="notice"></p>
+            </div>
+            <div>
+                <input id="rep-login-pwd" placeholder="确认登录密码" maxlength="20" required="" autocomplete="off" autocapitalize="off" type="password">
+                <p class="notice"></p>
+            </div>
+            <p class="notice"></p>
+            <p id="code-send-tip" class="tip">验证码已发到您的手机，请在5分钟之内输入。<br>如长时间未收到验证码，请点击<a href="javascript:;" id="get-code-again" data-submit="0">再次获取</a>。</p>			
+            <input class="subbtn" id="sub" value="同意以下协议并注册" style="background:#08c030; border:0; color:#fff; margin-top:15px;-webkit-appearance: none;" type="button">			
+            <div>
+                <input id="protocol-check" name="" checked="checked" style="width:auto; height:auto;display:inline-block; background:#7d7d7d" type="checkbox">&nbsp;&nbsp;我已阅读并接受<a target="_blank" href="http://api.gz383.com/index.php?con=agm&act=a_view" style="color:#00db2f" onclick="">《朋友街平台服务协议》</a> 和 <a target="_blank" href="http://api.gz383.com/index.php?con=agm&act=b_view" style="color:#00db2f" onclick="">《朋友街禁售商品管理规范》</a>
+            </div>
+            <!--<input id="protocol-check" name="" checked="checked" style="width:auto; height:auto;display:inline-block" type="checkbox">-->
+            <!--<a href="http://pengyoujie.com.cn/index.html" target="_blank" style=" display:block; margin-top:10px"><img src="static/down.gif" style="width:100%;"></a>-->
+        </form>
+    </div>
+    <div id="footer" style="color:#c5c5c5">朋友街（深圳）网络科技有限公司<br>版权所有©2015&nbsp;&nbsp;粤ICP备15063628号-1</div>
+
+    <!-- 弹出注册协议s -->
+    <div id="lightbox1" class="leightbox" style="display:none">
+        <h1>朋友街注册协议</h1>
+        <hr class="hr1" >
+        <div class="text_p">
+         <p>朋友街注册协议</p>
+        </div>
+        <div class="Close Close_b">
+            <a href="javascript:;" class="lbAction" rel="deactivate">关闭</a>
+        </div>
+    </div>
+    <!-- 弹出注册协议e -->
+</div>
+<!-- 载入js文件 -->
+<script type="text/javascript" src="js/zepto.js"></script>
+<script type="text/javascript" src="js/touch.js"></script>
+<script type="text/javascript" src="js/md5.js"></script>
+<script type="text/javascript" src="js/member-register.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/reg.js"></script>
+
+</body>
+</html>

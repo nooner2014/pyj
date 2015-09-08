@@ -1,0 +1,251 @@
+h1 {
+    -webkit-box-sizing: border-box;
+    position: relative;
+    height: 60px;
+    padding-top: 10px;
+    margin:0 auto;
+    line-height: 44px;
+    text-align: center;
+    background:  url(../img/navi_2x.png);
+    color: #fff;
+    font-size: 40px;
+}
+
+h1:before {
+    position: absolute;
+    top: 16px;
+    left: 10px;
+    width: 45px;
+    height: 45px;
+    background: url(../img/logo_2x.png) no-repeat;
+    background-size: 100%
+}
+
+#wrap {
+    padding: 10px 12px
+}
+
+#title {
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+    margin:0 auto;
+}
+
+#rec-ipt span { 
+    display:inline-block; 
+    width:40%;
+    background:#e3e3e3; 
+    color: #08c030;
+    font-weight: bold; 
+    border-radius:5px; 
+    border:0; 
+    box-shadow:none; 
+    -webkit-box-shadow:none; 
+    height:50px; 
+    line-height:50px; 
+    padding:0 8px;
+    text-align: center;
+}
+
+.subbtn{ 
+    padding:3px 12px; 
+    background:#04B5AF; 
+    color:#fff; 
+    border-radius:3px; 
+    box-shadow:0 1px 1px #ddd;
+    cursor:pointer;
+    border:0px;
+    border-bottom-style:none;
+    border-top-style:none;
+    border-left-style:none;
+    border-right-style:none;
+}
+
+.reg-form h2 {
+    font-size: 18px;
+    color: #555
+}
+
+.reg-form div {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    overflow: hidden
+}
+
+.reg-form input {
+    -webkit-box-sizing: border-box;
+    display: block;
+    height: 40px;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #c5c3c4;
+    -webkit-border-radius: 2px;
+    border-radius: 5px;
+    background: #fff;
+    font-size: 16px;
+    line-height: 1;
+    color: #555;
+    -webkit-box-shadow: inset 0 1px 1px 0 rgba(0, 0, 0, .1);
+    box-shadow: inset 0 1px 1px 0 rgba(0, 0, 0, .1);
+    outline: 0
+}
+
+.reg-form input:focus {
+    border-color: #3284e4
+}
+
+.reg-form button {
+    display: block;
+    width: 100%;
+    height: 46px;
+    margin-top: 15px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #d13231;
+    -webkit-box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, .25);
+    font-family: "Microsoft YaHei" ! important;
+    background: -webkit-gradient(linear, center top, center bottom, from(#C02D2D), to(#C02D2D));
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .3);
+    font-size: 16px
+}
+
+#inv-code-box {
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    margin-bottom: 0;
+    margin-top: -5px
+}
+
+#inv-code-box input {
+    -webkit-box-flex: 1;
+    width: 94.5%;
+    display: block
+}
+
+#inv-code-box text{
+    width: 260px;
+    margin-right: 8px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 65px;
+}
+
+#msg-code-box {
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    margin-bottom: 0
+}
+
+#msg-code-box input {
+    -webkit-box-flex: 1;
+    display: block
+}
+#get-msg-code{
+    width:250px;
+    height: 50px;
+    border-radius: 5px;
+    background:#08c030;
+    margin:0px 0px 0px 10px;
+
+}
+
+#msg-code{
+    width: 90%;
+}
+#msg-code-box button {
+    width: 160px;
+    margin-left: 8px;
+    margin-top: 0;
+    border-color: #3284e4;
+    background: -webkit-gradient(linear, center top, center bottom, from(#20acfd), to(#308eff))
+}
+
+#msg-code-box .btn-active {
+    background: -webkit-gradient(linear, center top, center bottom, from(#308eff), to(#20acfd))
+}
+
+#msg-code-box .disable-button, .reg-form .disable-button {
+    border-color: #dbdada;
+    background: -webkit-gradient(linear, center top, center bottom, from(#eaeaea), to(#e5e5e5));
+    color: #999;
+    text-shadow: none
+}
+
+.reg-form .btn-active {
+    background: -webkit-gradient(linear, center top, center bottom, from(#e44126), to(#ea5537))
+}
+
+#hide-show-pwd {
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    padding: 0 5px;
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+    border: 1px solid #ebebeb;
+    height: 28px;
+    line-height: 28px;
+    background: #eff0f1;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    overflow: hidden
+}
+
+.tip {
+    display: none;
+    margin-top: 10px;
+    color: #888;
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.4
+}
+
+.tip a {
+    margin-left: 5px;
+    color: #d03231
+}
+
+.agreement-download {
+    -webkit-box-sizing: border-box;
+    display: -webkit-box;
+    padding: 5px;
+    -webkit-box-pack: justify
+}
+
+.agreement-download a {
+    display: block;
+    margin-left: 16px;
+    font-family: "Microsoft YaHei" ! important;
+    color: #4B4848
+}
+
+.agreement-download .download {
+    padding-left: 20px;
+    background: url(../img/down_2x.png) no-repeat left;
+    background-size: auto 18px
+}
+
+.notice {
+    display: none;
+    line-height: 18px;
+    color: #888;
+    padding-top: 5px;
+    padding-left: 8px
+}
+
+.error {
+    color: #c61f1e
+}
+
+img{
+    display:table-cell; 
+    vertical-align:middle;
+    text-align:center;
+    margin:0 auto;
+    *display: block;
+}
