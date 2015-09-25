@@ -1,0 +1,86 @@
+/*店铺装修的样式开始*/
+.phone {
+  margin: 30px 44px 25px 0px;
+  position: relative;
+}
+.show {
+  margin-top: 60px;
+  width: 400px;
+  position: relative;
+}
+.phone, .show {
+  float: left;
+}
+.show h4 {
+  margin-bottom: 0;
+}
+.show p {
+  color: #f55641;
+  font-size: 10.5px;
+}
+.pic {
+  width: 367px;
+  height: 170px;
+  margin-top: 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1px dashed #e4e4e4;
+}
+.pic img {
+  margin-top: 55px;
+}
+button.save {
+  width: 210px;
+  height: 40px;
+  margin: 40px 0 0 93px;
+}
+#picFile {
+  position: absolute;
+  top: 105px;
+  width: 367px;
+  height: 170px;
+  cursor: pointer;
+  opacity: 0; /* 实现的关键点 */ 
+  filter:alpha(opacity=0);/* 兼容IE */ 
+}
+.show-pic-phone {
+  top: 284px;
+  left: 8px;
+  width: 383px;
+  height: 174px;
+  position: absolute;
+}
+.decorate-top, .decorate-bottom {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 20px;
+  overflow: auto;
+}
+.decorate-top {
+  border-bottom: 2px dashed #e4e4e4;
+}
+.show-pic-top {
+  top: 35px;
+  left: 62px;
+  width: 275px;
+  height: 30px;
+  position: absolute;
+}
+#topFile {
+  position: absolute;
+  cursor: pointer;
+  opacity: 0;
+  left: 0;
+  width: 250px;
+  height: 50px;
+}
+.decorate-top .pic {
+  position: absolute;
+  width: 250px;
+  height: 50px;
+}
+.decorate-top .pic img {
+  margin-top: 0px;
+}
+/*店铺装修的样式结束*/

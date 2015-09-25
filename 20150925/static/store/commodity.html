@@ -1,0 +1,1665 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <title>朋友街</title>
+  <link type="image/x-icon" rel="shortcut icon" href="../static/img/favicon.ico" />
+  <link href="../static/css/main.css" rel="stylesheet"/>
+  <link href="../static/css/store/commodity.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../static/diyUpload/css/webuploader.css">
+  <link rel="stylesheet" type="text/css" href="../static/diyUpload/css/diyUpload.css">
+  <script src="../static/js/jquery-1.11.3.js" type="text/javascript"></script>
+  <script src='../static/js/main.js'></script>
+  <script src="../static/js/store/order.js" type="text/javascript"></script>
+  <script src="../static/js/store/commodity.js" type="text/javascript"></script>
+  <script type="text/javascript" src="../static/diyUpload/js/webuploader.html5only.min.js"></script>
+  <script type="text/javascript" src="../static/diyUpload/js/diyUpload.js"></script>
+</head>
+<body>
+  <div class="del-background">
+    <div class='del-tip'>
+      <div class="tip">是否删除此记录</div>
+      <span class='off'>取消</span>
+      <span class='on'>删除</span>
+    </div>
+  </div>
+
+      <div class="cash-background">
+        <div class="norms-add">
+          <div class="norms-level-1">
+            <label for="" class='title'>规格</label>
+            <div class="norms-level-1-div">
+            <img src="../static/img/close.png" class="close">
+            </div>
+          </div> 
+          <div style="height:475px; overflow-y: auto;">
+            <div class="norms-level-1">
+              <label for="" class=''>规格</label>
+              <div class="norms-level-1-div" class='norm-content'>
+                <div class="size size-main">
+                  <span class="size-content">
+                    <span class="checkbox"><i class="select"></i><span>S</span><input type='checkbox' class='norms-checkbox'></span>
+                  </span>
+                  <span class="size-content">
+                    <span class="checkbox"><i class="select"></i><span>M</span><input type='checkbox' class='norms-checkbox'></span>
+                  </span>
+                  <span class="size-content">
+                    <span class="checkbox"><i class="select"></i><span>L</span><input type='checkbox' class='norms-checkbox'></span>
+                  </span>
+                  <span class="size-content">
+                    <span class="checkbox"><i class="select"></i><span>XL</span><input type='checkbox' class='norms-checkbox'></span>
+                  </span>
+                  <span class="size-content">
+                    <span class="checkbox"><i class="select"></i><span>XXL</span><input type='checkbox' class='norms-checkbox'></span>
+                  </span>
+                  <span class="size-content">
+                    <span class="checkbox"><i class="select"></i><span>XXXL</span><input type='checkbox' class='norms-checkbox'></span>
+                  </span>
+                  <span class="size-content">
+                    <span class="checkbox"><i class="select"></i><span>35</span><input type='checkbox' class='norms-checkbox'></span>
+                  </span>
+                  <span class="size-content">
+                    <span class="checkbox"><i class="select"></i><span>36</span><input type='checkbox' class='norms-checkbox'></span>
+                  </span>
+                  <span class="size-content">
+                    <span class="checkbox"><i class="select"></i><span>37</span><input type='checkbox' class='norms-checkbox'></span>
+                  </span>
+                  <span class="size-content">
+                    <span class="checkbox"><i class="select"></i><span>38</span><input type='checkbox' class='norms-checkbox'></span>
+                  </span>
+                  <span class="size-content">
+                    <span class="checkbox"><i class="select"></i><span>39</span><input type='checkbox' class='norms-checkbox'></span>
+                  </span>
+                  <span class="size-content">
+                    <span class="checkbox"><i class="select"></i><span>40</span><input type='checkbox' class='norms-checkbox'></span>
+                  </span>
+                </div>
+                <button class="norms-btn">添加自定义规格</button>
+              </div>
+            </div>
+            <div class="norms-level-1">
+            <label for="" class=''>颜色</label>
+              <div class="norms-level-1-div" class='norm-content'>
+                <div class="size color-main">
+                  <span class="size-content">
+                    <span class="checkbox"><i class="select"></i><span>红色</span><input type='checkbox' class='norms-checkbox'></span>
+                  </span>
+                  <span class="size-content">
+                    <span class="checkbox"><i class="select"></i><span>粉色</span><input type='checkbox' class='norms-checkbox'></span>
+                  </span>
+                  <span class="size-content">
+                    <span class="checkbox"><i class="select"></i><span>米白色</span><input type='checkbox' class='norms-checkbox'></span>
+                  </span>
+                  <span class="size-content">
+                    <span class="checkbox"><i class="select"></i><span>蓝色</span><input type='checkbox' class='norms-checkbox'></span>
+                  </span>
+                  <span class="size-content">
+                    <span class="checkbox"><i class="select"></i><span>紫色</span><input type='checkbox' class='norms-checkbox'></span>
+                  </span>
+                  <span class="size-content">
+                    <span class="checkbox"><i class="select"></i><span>咖啡色</span><input type='checkbox' class='norms-checkbox'></span>
+                  </span>
+                  <span class="size-content">
+                    <span class="checkbox"><i class="select"></i><span>金色</span><input type='checkbox' class='norms-checkbox'></span>
+                  </span>
+                  <span class="size-content">
+                    <span class="checkbox"><i class="select"></i><span>银色</span><input type='checkbox' class='norms-checkbox'></span>
+                  </span>
+                  <span class="size-content">
+                    <span class="checkbox"><i class="select"></i><span>黑色</span><input type='checkbox' class='norms-checkbox'></span>
+                  </span>
+                  <span class="size-content">
+                    <span class="checkbox"><i class="select"></i><span>白色</span><input type='checkbox' class='norms-checkbox'></span>
+                  </span>
+                  <span class="size-content">
+                    <span class="checkbox"><i class="select"></i><span>灰色</span><input type='checkbox' class='norms-checkbox'></span>
+                  </span>
+                  <span class="size-content">
+                    <span class="checkbox"><i class="select"></i><span>绿色</span><input type='checkbox' class='norms-checkbox'></span>
+                  </span>
+                </div>
+                <button class="norms-btn">添加自定义颜色</button>
+              </div>
+            </div>
+            <div class="norms-level-1">
+              <label for="" class=''> &nbsp;</label>
+              <div class="norms-level-1-div">
+              <table class='comm-table norms-table' border="1" cellspacing="0" cellpadding="0">
+                <tr>
+                  <th>系统规格</th>
+                  <th>自定义规格</th>
+                  <th>操作</th>
+                </tr>
+              </table>
+              </div>
+            </div>
+          </div>
+          <div class="norms-level-1">
+            <label for="" class=''>&nbsp;</label>
+            <div class="norms-level-1-div">
+            <button class="save norms-add-btn">确定</button>
+            </div>
+          </div>
+        </div> 
+      </div>
+  <!-- 最顶部的导航开始 -->
+  <nav class='top'>
+    <div class="top-content">
+      <li><a href="#">手机客户端</a></li>
+      <li><a href="#">帮助中心</a></li>
+      <li><a href="#">营销中心</a></li>
+      <li><a href="#">最新动态</a></li>
+      <li><a href="#">朋友街规则</a></li>
+    </div>
+  </nav>
+  <!-- 最顶部的导航结束 -->
+  <div class="main">
+    <div class="main-nav">
+      <img class="logo" src="../static/img/logo.png" alt="">
+      <span class="user">
+        <span class="user-name">yerad亚丽达服装旗舰店</span>
+        <img src="../static/img/triangle.png" alt="">
+        <span class='logout'>退出</span>
+      </span>
+      <div class='user-menu'>
+        <li>订单消息：<span>99</span></li>
+        <li>店铺消息：<span>99</span></li>
+        <li>系统消息：<span>99</span></li>
+      </div>
+    </div>
+    <div class="home">
+     <a href="../index.html">首页</a> 
+    </div>
+    <div class="content">
+      <div class="sidebar">
+        <div class="store">
+          <h2><i class="store sidebar"></i>我的店铺</h2>
+          <li class='active'><a href="../store/commodity.html">商品管理</a></li>
+          <li><a href="../store/order.html">订单管理</a></li>
+          <li><a href="../store/sale.html">销售统计</a></li>
+          <li><a href="../store/system.html">店铺设置</a></li>
+          <li><a href="../store/decorate.html">店铺装修</a></li>
+          <li><a href="../store/company.html">企业资料</a></li>
+        </div>
+        <div class="revenues">
+          <h2><i class="revenues sidebar"></i>我的收入</h2>
+          <li><a href="../money/all.html">我的总收入</a></li>
+          <li><a href="../money/cash.html">提现记录</a></li>
+        </div>
+        <div class="message">
+          <h2><i class="message sidebar"></i>我的消息</h2>
+          <li><a href="../message/store.html">店铺消息</a></li>
+          <li><a href="../message/sys.html">系统消息</a></li>
+        </div>
+      </div>
+      <div class="main-content">
+            <div class="select-error">
+        请先选择要分类的商品
+        </div>
+        <div class="commodity-show">
+        <div class="search-group">
+          <input type='text' class='search'>
+          <img src="../static/img/search.png">
+        </div>
+        <div class="friend-tab">
+          <ul class="tabs">
+            <li class="active"><a href="#tab1">上架时间</a></li>  
+            <li><a href="#tab2">销量<i class="sort"></i></a></li>
+            <li><a href="#tab3">库存<i class="sort"></i></a></li>
+            <li><a href="#tab4">已卖完</a></li>
+            <li><a href="#tab5">已下架</a></li>
+          </ul>  
+          <div class="tab_container">  
+            <div id="tab1" class="tab_content" style="display: block;">  
+              <div class="operation">
+                <input type="checkbox" class="check-all"> 全选
+                <span>当前已选中<span class='comm-count'>0</span>件商品</span>
+                <button class="save classify">分类至
+                  <img src="../static/img/classify.png" alt="">
+                </button>
+                <div class="select-content">
+                  <div> <input type="checkbox"> 女装</div>
+                  <div> <input type="checkbox"> 男装 </div>
+                  <div> <input type="checkbox"> 童鞋 </div>
+                  <button class='select-save'>保存</button>
+                </div>
+                <button class="save del">批量下架</button>
+              </div>
+              <table class='order-detail com-table' border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <th></th>
+                  <th></th>
+                  <th>商品描述</th>
+                  <th>价格</th>
+                  <th>销量</th>
+                  <th>库存</th>
+                  <th>分类</th>
+                  <th>更新时间</th>
+                  <th>操作</th>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">下架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">下架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">下架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">下架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">下架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">下架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">下架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">下架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">下架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">下架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+              </table>
+              <div class="operation">
+                <input type="checkbox" class='check-all'> 全选
+                <span>当前已选中<span class='comm-count'>0</span>件商品</span>
+                <button class="save classify">分类至
+                  <img src="../static/img/classify.png" alt="">
+                </button>
+                <div class="select-content">
+                  <div> <input type="checkbox"> 女装</div>
+                  <div> <input type="checkbox"> 男装 </div>
+                  <div> <input type="checkbox"> 童鞋 </div>
+                  <button class='select-save'>保存</button>
+                </div>
+                <button class="save del">批量下架</button>
+              </div>
+              <div class="pagination">
+                <span class="page-num">1/5 <i class="page"></i></span>
+                <span class="page-detail">
+                <div><a href="">2/5</a></div>
+                <div><a href="">3/5</a></div>
+                <div><a href="">4/5</a></div>
+                <div><a href="">5/5</a></div>
+                </span>
+                <span class="prev">上一页</span>
+                <span class="next">下一页</span>
+              </div>
+            </div>
+            <div id="tab2" class="tab_content" style="display: none;">  
+              <div class="operation">
+                <input type="checkbox" class="check-all"> 全选
+                <span>当前已选中<span class='comm-count'>0</span>件商品</span>
+                <button class="save classify">分类至
+                  <img src="../static/img/classify.png" alt="">
+                </button>
+                <div class="select-content">
+                  <div> <input type="checkbox"> 女装</div>
+                  <div> <input type="checkbox"> 男装 </div>
+                  <div> <input type="checkbox"> 童鞋 </div>
+                  <button class='select-save'>保存</button>
+                </div>
+                <button class="save del">批量下架</button>
+              </div>
+              <table class='order-detail com-table' border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <th></th>
+                  <th></th>
+                  <th>商品描述</th>
+                  <th>价格</th>
+                  <th>销量</th>
+                  <th>库存</th>
+                  <th>分类</th>
+                  <th>更新时间</th>
+                  <th>操作</th>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+              </table>
+              <div class="operation">
+                <input type="checkbox" class='check-all'> 全选
+                <span>当前已选中<span class='comm-count'>0</span>件商品</span>
+                <button class="save classify">分类至
+                  <img src="../static/img/classify.png" alt="">
+                </button>
+                <div class="select-content">
+                  <div> <input type="checkbox"> 女装</div>
+                  <div> <input type="checkbox"> 男装 </div>
+                  <div> <input type="checkbox"> 童鞋 </div>
+                  <button class='select-save'>保存</button>
+                </div>
+                <button class="save del">批量下架</button>
+              </div>
+              <div class="pagination">
+                <span class="page-num">1/1 <i class="page"></i></span>
+                <span class="page-detail">
+                <div><a href="">1/2</a></div>
+                <div><a href="">1/3</a></div>
+                <div><a href="">1/4</a></div>
+                <div><a href="">1/5</a></div>
+                </span>
+                <span class="prev">上一页</span>
+                <span class="next">下一页</span>
+              </div>
+            </div>  
+            <div id="tab3" class="tab_content" style="display: none;">  
+              <div class="operation">
+                <input type="checkbox" class="check-all"> 全选
+                <span>当前已选中<span class='comm-count'>0</span>件商品</span>
+                <button class="save classify">分类至
+                  <img src="../static/img/classify.png" alt="">
+                </button>
+                <div class="select-content">
+                  <div> <input type="checkbox"> 女装</div>
+                  <div> <input type="checkbox"> 男装 </div>
+                  <div> <input type="checkbox"> 童鞋 </div>
+                  <button class='select-save'>保存</button>
+                </div>
+                <button class="save del">批量下架</button>
+              </div>
+              <table class='order-detail com-table' border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <th></th>
+                  <th></th>
+                  <th>商品描述</th>
+                  <th>价格</th>
+                  <th>销量</th>
+                  <th>库存</th>
+                  <th>分类</th>
+                  <th>更新时间</th>
+                  <th>操作</th>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+              </table>
+              <div class="operation">
+                <input type="checkbox" class='check-all'> 全选
+                <span>当前已选中<span class='comm-count'>0</span>件商品</span>
+                <button class="save classify">分类至
+                  <img src="../static/img/classify.png" alt="">
+                </button>
+                <div class="select-content">
+                  <div> <input type="checkbox"> 女装</div>
+                  <div> <input type="checkbox"> 男装 </div>
+                  <div> <input type="checkbox"> 童鞋 </div>
+                  <button class='select-save'>保存</button>
+                </div>
+                <button class="save del">批量下架</button>
+              </div>
+              <div class="pagination">
+                <span class="page-num">1/1 <i class="page"></i></span>
+                <span class="page-detail">
+                <div><a href="">1/2</a></div>
+                <div><a href="">1/3</a></div>
+                <div><a href="">1/4</a></div>
+                <div><a href="">1/5</a></div>
+                </span>
+                <span class="prev">上一页</span>
+                <span class="next">下一页</span>
+              </div>
+            </div>
+            <div id="tab4" class="tab_content" style="display: none;">  
+              <div class="operation">
+                <input type="checkbox" class="check-all"> 全选
+                <span>当前已选中<span class='comm-count'>0</span>件商品</span>
+                <button class="save classify">分类至
+                  <img src="../static/img/classify.png" alt="">
+                </button>
+                <div class="select-content">
+                  <div> <input type="checkbox"> 女装</div>
+                  <div> <input type="checkbox"> 男装 </div>
+                  <div> <input type="checkbox"> 童鞋 </div>
+                  <button class='select-save'>保存</button>
+                </div>
+                <button class="save del">批量下架</button>
+              </div>
+              <table class='order-detail com-table' border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <th></th>
+                  <th></th>
+                  <th>商品描述</th>
+                  <th>价格</th>
+                  <th>销量</th>
+                  <th>库存</th>
+                  <th>分类</th>
+                  <th>更新时间</th>
+                  <th>操作</th>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+              </table>
+              <div class="operation">
+                <input type="checkbox" class='check-all'> 全选
+                <span>当前已选中<span class='comm-count'>0</span>件商品</span>
+                <button class="save classify">分类至
+                  <img src="../static/img/classify.png" alt="">
+                </button>
+                <div class="select-content">
+                  <div> <input type="checkbox"> 女装</div>
+                  <div> <input type="checkbox"> 男装 </div>
+                  <div> <input type="checkbox"> 童鞋 </div>
+                  <button class='select-save'>保存</button>
+                </div>
+                <button class="save del">批量下架</button>
+              </div>
+              <div class="pagination">
+                <span class="page-num">1/1 <i class="page"></i></span>
+                <span class="page-detail">
+                <div><a href="">1/2</a></div>
+                <div><a href="">1/3</a></div>
+                <div><a href="">1/4</a></div>
+                <div><a href="">1/5</a></div>
+                </span>
+                <span class="prev">上一页</span>
+                <span class="next">下一页</span>
+              </div>
+            </div> 
+            <div id="tab5" class="tab_content" style="display: none;">  
+              <div class="operation">
+                <input type="checkbox" class="check-all"> 全选
+                <span>当前已选中<span class='comm-count'>0</span>件商品</span>
+                <button class="save classify">分类至
+                  <img src="../static/img/classify.png" alt="">
+                </button>
+                <div class="select-content">
+                  <div> <input type="checkbox"> 女装</div>
+                  <div> <input type="checkbox"> 男装 </div>
+                  <div> <input type="checkbox"> 童鞋 </div>
+                  <button class='select-save'>保存</button>
+                </div>
+                <button class="save del">批量下架</button>
+              </div>
+              <table class='order-detail com-table' border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <th></th>
+                  <th></th>
+                  <th>商品描述</th>
+                  <th>价格</th>
+                  <th>销量</th>
+                  <th>库存</th>
+                  <th>分类</th>
+                  <th>更新时间</th>
+                  <th>操作</th>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox">
+                  </td>
+                  <td>
+                    <img src="../static/img/example.png">
+                  </td>
+                  <td>
+                    小香风棉麻休闲无袖套装连衣裙
+                  </td>
+                  <td>99999</td>
+                  <td>9999</td>
+                  <td>9999</td>
+                  <td>服饰箱包</td>
+                  <td>8-20</td>
+                  <td>
+                    <a class='edit' href="javascript:void(0);">编辑商品</a><br />
+                    <a class='soldout' href="javascript:void(0);">上架商品</a><br />
+                    <a class='remove' href="javascript:void(0);">删除商品</a>
+                  </td>
+                </tr>
+              </table>
+              <div class="operation">
+                <input type="checkbox" class='check-all'> 全选
+                <span>当前已选中<span class='comm-count'>0</span>件商品</span>
+                <button class="save classify">分类至
+                  <img src="../static/img/classify.png" alt="">
+                </button>
+                <div class="select-content">
+                  <div> <input type="checkbox"> 女装</div>
+                  <div> <input type="checkbox"> 男装 </div>
+                  <div> <input type="checkbox"> 童鞋 </div>
+                  <button class='select-save'>保存</button>
+                </div>
+                <button class="save del">批量下架</button>
+              </div>
+              <div class="pagination">
+                <span class="page-num">1/1 <i class="page"></i></span>
+                <span class="page-detail">
+                <div><a href="">1/2</a></div>
+                <div><a href="">1/3</a></div>
+                <div><a href="">1/4</a></div>
+                <div><a href="">1/5</a></div>
+                </span>
+                <span class="prev">上一页</span>
+                <span class="next">下一页</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="add">
+          <button class="save add"> <i class="add"></i>添加商品</button>
+        </div>
+        </div>
+        <div class="commodity-add">
+          <div class="level-1">
+            <label for="" class='level-1-label'>展示图</label>
+            <div class="level-1-div">
+              <div id="box">
+              <span class='pic-tip'>*单张大小50k以内,RGB模式，支持jpg/png格式，最多可上传五张, 尺寸750*950，支持批量上传，
+ 拖拽图片可更换顺序。</span>
+                <div id="test"></div>
+              </div> 
+            </div>
+          </div>
+          <div class="level-1">
+            <label for="" class='level-1-label'>商品标题</label>
+            <div class="level-1-div">
+              <input type="text" class='comm-title' placeholder="" maxlength="30">
+              还可以输入<span class='surplus'></span>字符/汉字
+            </div>
+          </div>
+          <div class="level-1">
+            <label for="" class='level-1-label'>商品描述</label>
+            <div class="level-1-div">
+              <textarea id="comm-description" name="" cols="" rows=""> </textarea>
+            </div>
+          </div>
+          <div class="level-1">
+            <label for="" class='level-1-label'>图文详情</label>
+            <div class="level-1-div">
+            <div id="demo">
+            <span class='pic-tip'>单张图片100k以内，RGB模式，支持jpg/png格式，单张图片宽不超过800，高不超过3200，最多
+允许上传20张图片，支持批量上传，拖拽图片可更换顺序。</span>
+  <div id="as" ></div>
+      </div>
+            </div>
+          </div>
+          <div class="level-1">
+            <label for="" class='level-1-label'>商品编码</label>
+            <div class="level-1-div">
+              <input type="text" placeholder='用于商家系统对接' class='comm-text'>
+            </div>
+          </div>
+          <div class="level-1">
+            <label for="" class='level-1-label'>分类</label>
+            <div class="level-1-div">
+              <select id="" name="" class='comm-text'>
+                <option value="">选择商品分类</option>
+              </select>
+            </div>
+          </div>
+          <div class="level-1">
+            <label for="" class='level-1-label'>邮费</label>
+            <div class="level-1-div">
+              <input type="text" placeholder='' class='comm-text'>
+              <input type="checkbox">包邮
+            </div>
+          </div>
+          <div class="level-1">
+            <label for="" class='level-1-label'>规格</label>
+            <div class="level-1-div">
+              <button class="save norms"><i class="add-black"></i>添加规格</button>
+              填写规格如（S），零售价和市场价自动生成（市场价可修改）
+              <table class="comm-table norm-table" border="1" cellspacing="0" cellpadding="0">
+                <tr>
+                  <th>规格/尺码</th>
+                  <th>颜色</th>
+                  <th>数量</th>
+                  <th>代发价</th>
+                  <th>零售价</th>
+                  <th>市场价</th>
+                  <th>重量（g）</th>
+                  <th>操作</th>
+                </tr>
+                <tr>
+                  <td>合计</td>
+                  <td></td>
+                  <td class='comm-counts-all'>33</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="level-1">
+            <label for="" class='level-1-label'></label>
+            <div class="level-1-div">
+              <button class="save comm-save">提交</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" language="javascript">   
+$('#as').diyUpload({
+  url:'server/fileupload.php',
+  success:function( data ) {
+    console.info( data );
+  },
+  error:function( err ) {
+    console.info( err );  
+  },
+  buttonText : '',
+  chunked:true,
+  // 分片大小
+  chunkSize:512 * 1024,
+  //最大上传的文件数量, 总文件大小,单个文件大小(单位字节);
+  fileNumLimit:10,
+  fileSizeLimit:500000 * 1024,
+  fileSingleSizeLimit:50000 * 1024,
+  accept: {}
+});  
+$('#test').diyUpload({
+  url:'server/fileupload.php',
+  fileNumLimit:5,
+  success:function( data ) {
+    console.info( data );
+  },
+  error:function( err ) {
+    console.info( err );  
+  }
+});
+
+</script>
+</body>
+</html>

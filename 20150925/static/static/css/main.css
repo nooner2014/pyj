@@ -1,0 +1,599 @@
+/*全局定义开始*/
+html {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  overflow-y: scroll;
+  background-color: #f5f5f5;
+  font-family: "Microsoft Yahei";
+}
+input[type="checkbox"] {
+  cursor: pointer;
+}
+input:focus {
+  outline: none;
+}
+button:focus {
+  cursor: pointer;
+  outline: none;
+}
+select button {
+  cursor: pointer;
+}
+th {
+  font-weight: normal;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+li a {
+  text-decoration:none;
+}
+/*页面中的图标定义开始*/
+i {
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+i.sidebar {
+  width: 20px;
+  height: 20px;
+  margin: 0 10px 0 24px;
+}
+i.store {
+  position: relative;
+  top: 3px;
+  background: url("../img/store.png");
+}
+i.select {
+  position: relative;
+  top: 4px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background: url("../img/select.png");
+}
+i.selected {
+  cursor: pointer;
+  position: relative;
+  top: 4px;
+  width: 20px;
+  height: 20px;
+  background: url("../img/selected.png");
+}
+i.revenues {
+  position: relative;
+  top: 3px;
+  background: url("../img/revenues.png");
+}
+i.message {
+  position: relative;
+  top: 3px;
+  background: url("../img/message.png");
+}
+i.page {
+  width: 10px;
+  height: 10px;
+  background: url("../img/page.png");
+}
+i.sort {
+  display: inline-block;
+  width: 8px;
+  height: 13px;
+  margin-left: 24px;
+  background: url("../img/sort.png");
+}
+i.desc {
+  display: inline-block;
+  width: 8px;
+  height: 13px;
+  margin-left: 24px;
+  background: url("../img/desc.png");
+}
+i.asce {
+  display: inline-block;
+  width: 8px;
+  height: 13px;
+  margin-left: 24px;
+  background: url("../img/asce.png");
+}
+i.add {
+  display: inline-block;
+  width: 24px;
+  height: 13px;
+  background: url("../img/add-white.png");
+  background-repeat: no-repeat;
+}
+i.add-black {
+  display: inline-block;
+  width: 24px;
+  height: 13px;
+  background: url("../img/add-black.png");
+  background-repeat: no-repeat;
+}
+i.del {
+  display: inline-block;
+  cursor: pointer;
+  width: 32px;
+  height: 22px;
+  margin-top: 5px;
+  float: left;
+  margin-left: 40px;
+  background: url("../img/del.png");
+  background-repeat: no-repeat;
+}
+button.save {
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 16px;
+  margin: 20px 0 38px 60px;
+  width: 160px;
+  height: 40px;
+  background-color: #3cdc3f;
+  border: none;
+  border-radius: 5px;
+}
+button.save:focus {
+  outline: none;
+}
+/*页面中的图标定义结束*/
+/*全局定义结束*/
+
+/* 最顶部的nav开始*/
+nav.top {
+  height: 30px;
+  background-color: #ebebeb;
+}
+nav.top .top-content {
+  width: 1265px;
+  height: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav.top .top-content li{
+  margin-top: 5px;
+  font-size: 14px;
+  float: right;
+}
+nav.top .top-content li a{
+  color: #ababab;
+}
+nav.top .top-content li + li {
+  padding: 0 10px;
+  border-right: 1px solid #ababab;
+}
+nav.top .top-content li:first-child {
+  padding: 0 0 0 10px;
+}
+/* 最顶部的nav结束 */
+
+/* 中间整体部分开始 */
+div.main {
+  position: relative;
+  width: 1265px;
+  background-color: #F5F5F5;
+  padding-top: 17px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.main .main-nav {
+  width: 100%;
+  height: 57px;
+  color: #666666;
+  font-size: 14px;
+}
+div.main .main-nav .user {
+  line-height: 30px;
+  padding-top: 15px;
+  float: right;
+}
+div.main .main-nav .user img, .user-name{
+  margin-right: 20px;
+  cursor: pointer;
+}
+div.main .main-nav .user .logout{
+  display: inline-block;
+  border-left: 1px solid #ababab;
+  padding-left: 20px;
+}
+/* 中间整体部分结束 */
+
+/* home开始 */
+.home{
+  line-height: 40px;
+  font-size: 16px;
+  padding-left: 57px;
+  margin-top: 20px;
+  height: 40px;
+  background-color: #2d3135;
+}
+.home a {
+  color: #ffffff;
+  text-decoration: none;
+}
+/* home结束 */
+div.content {
+  background-color: #FFFFFF;
+  width: 100%;
+}
+/* 侧边栏开始 */
+div.sidebar {
+  width: 235px;
+  height: 626px;
+  float: left;
+  border: 1px solid #e4e4e4;
+  background-color: #FFFFFF;
+}
+div.sidebar h2 {
+  font-weight:normal;
+  margin: 25px 0;
+  font-size: 18px;
+}
+div.sidebar > div {
+  padding-bottom: 30px;
+}
+div.sidebar > div + div {
+  border-top: 1px solid #e4e4e4;
+}
+div.sidebar li a{
+  height: 25px;
+  padding-left: 55px;
+  line-height: 25px;
+  color: #666666;
+  font-size: 16px;
+}
+div.sidebar li + li {
+  margin-top: 8px;
+}
+div.sidebar li a:hover {
+  color: #00db2f;
+}
+div.sidebar li.active {
+  border-left: 4px solid #00db2f;
+}
+div.sidebar li.active a{
+  color: #00db2f;
+  padding-left: 51px;
+}
+/* 侧边栏结束 */
+
+/* 主内容开始*/
+div.main-content {
+  position: relative;
+  width: 1028px;
+  min-height: 626px;
+  background-color: #FFFFFF;
+  float: right;
+}
+/* 主内容结束*/
+
+/*页面中的tab*/
+.friend-tab {
+  float: left;
+  width: 660px;
+}
+.friend-tab .tabs {
+  height: 60px;
+  font-size: 16px;
+  margin-top: 0px;
+  padding-left: 0px;
+}
+.friend-tab .tabs li{
+  cursor: pointer;
+  height: 60px;
+  width: 130px;
+  text-align: center;
+  line-height: 60px;
+  float: left;
+  border-right: 1px solid #e4e4e4;
+  border-top: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+}
+.friend-tab .tabs li a{
+  color: #000000;
+}
+
+.friend-tab .tabs li.active {
+  background-color: #434547;
+}
+.friend-tab .tabs li.active a {
+  color: #ffffff;
+}
+/*页面中的分页*/
+div.pagination {
+  position: relative;
+  margin: 36px 0 30px 300px;
+}
+
+div.pagination .prev, div.pagination .next {
+  display: inline-block;
+  border: 1px solid #e4e4e4;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  margin-left: 20px;
+  position: absolute;
+  top: -9px;
+  right: 190px;
+}
+div.pagination span.page-detail {
+  display: none;
+}
+div.pagination span.page-detail div a{
+  cursor: pointer;
+}
+div.pagination .next {
+  right: 61px;
+}
+div.pagination .page-num {
+  cursor: pointer;
+}
+
+/*页面中的搜索*/
+
+.search-group {
+  position: relative;
+}
+.search {
+  float: right;
+  margin: 15px 20px;
+  width: 198px;
+  height: 42px;
+  border: 1px solid #e4e4e4;
+  border-radius: 5px;
+  font-size: 18px;
+  padding-left: 50px;
+}
+.search-group img {
+  position: absolute;
+  top: 28px;
+  right: 238px;
+}
+
+table.order-detail {
+  color: #666666;
+  margin-top: 27px;
+}
+table.order-detail th {
+  height: 55px;
+  border-top: 1px solid #e4e4e4;
+  border-bottom: 2px solid #e4e4e4;
+}
+table.order-detail td{
+  height: 110px;
+  border-bottom: 1px dashed #e4e4e4;
+}
+table.order-detail th, table.order-detail td {
+  padding: 0 20px 0 20px;
+  text-align: left;
+}
+table.order-detail td:nth-child(2) {
+  width: 300px;
+}
+table.order-detail td:nth-child(4) {
+  width: 30px;
+}
+table.order-detail td:nth-child(4) a{
+  margin-top: 5px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+div.user-menu {
+  display: none;
+  width: 220px;
+  height: 126px;
+  position: absolute;
+  font-size: 14px;
+  top: 60px;
+  right: 44px;
+  color: #333333;
+  z-index: 100;
+  background-color: #ffffff;
+}
+
+div.user-menu li {
+  margin-left: 20px;
+  margin-top: 15px;
+}
+div.user-menu li:first-child {
+  margin-top: 20px;
+}
+div.user-menu li span{
+  color: #3cdc3f;
+}
+div.get-cash-background, div.cash-background, div.del-background {
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 199;
+  background-color: rgba(0,0,0,0.7);
+}
+div.del-tip {
+  position: fixed;
+  z-index: 200;
+  width: 326px;
+  height: 134px;
+  left: 38%;
+  top: 30%;
+  color: #333333;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+div.del-tip .tip {
+  height: 68px;
+  border-bottom: 1px #e4e4e4 solid;
+  line-height: 68px;
+  text-align: center;
+}
+div.del-tip .off, div.del-tip .on{
+  display: inline-block;
+  width: 160px;
+  height: 59px;
+  line-height: 59px;
+  text-align: center;
+  cursor: pointer;
+}
+div.del-tip .off {
+  border-right: 1px #e4e4e4 solid;
+}
+div.cash-detail {
+  width: 600px;
+  height: 400px;
+  margin-left: 38%;
+  margin-top: 200px;
+  position: relative;
+  background-color: #ffffff;
+}
+div.cash-detail .tip-title {
+  height: 50px;
+  padding-left: 20px;
+  font-size: 18px;
+  color: #666666;
+  line-height: 50px;
+  border-bottom: 1px solid #e4e4e4;
+}
+div.cash-detail div.tip-detail {
+  height: 285px;
+  border-bottom: 1px solid #e4e4e4;
+}
+div.cash-detail button.cash-tip-btn {
+  margin: 0px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 100px;
+  height: 40px;
+}
+div.cash-detail div.tip-detail li {
+  width: 300px;
+  margin-top: 20px;
+}
+div.cash-detail div.tip-detail li + li  {
+  margin-top: 25px;
+}
+div.cash-detail div.tip-detail > div{
+  float: left;
+}
+div.cash-detail div.tip-detail-left {
+  margin-left: 20px;
+  width: 300px;
+}
+div.cash-detail div.tip-detail-right {
+  width: 160px;
+}
+div.cash-detail li span{
+  display: inline-block;
+}
+div.cash-detail div.tip-detail-left li span:first-child{
+  width: 84px;
+}
+div.cash-detail div.tip-detail-left li span:last-child{
+  width: 200px;
+}
+div.cash-detail div.tip-detail-right li span:first-child{
+  width: 64px;
+}
+div.cash-detail div.tip-detail-right li span:last-child{
+  margin-left: 20px;
+  width: 94px;
+}
+div.cash-detail img.tip-close {
+  position: absolute;
+  cursor: pointer;
+  top: 15px;
+  right: 20px;
+}
+li.laydate-icon {
+  width:120px;
+  height: 40px;
+  display: inline-block;
+  border: 1px solid #434547;
+  line-height: 40px;
+  padding-left: 10px;
+}
+.date-ul {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0px;
+}
+span.logout {
+  font-size: 14px;
+  color: #5eb6f9;
+}
+span.pic-tip {
+  color: red;
+  width: 620px;
+  display: inline-block;
+  margin-left: 100px;
+  position: absolute;
+}
+span.span-del {
+  color: #f55641;
+  cursor: pointer;
+}
+span.span-edit {
+  cursor: pointer;
+}
+div.select-error {
+  width: 210px;
+  height: 68px;
+  color: #eeeeee;
+  text-align: center;
+  line-height: 68px;
+  position: fixed;
+  left: 35%;
+  top: 200px;
+  display: none;
+  z-index: 9999;
+  border-radius: 5px;
+  background-color: #413634;
+}
+.ta_date {
+  height: 40px;
+  display: inline-block;
+  border-radius: 0px !important;
+  border: 1px solid #434547 !important;
+  line-height: 40px;
+  padding-left: 10px;
+}
+.ta_date .date_title {
+  padding: 0 10px !important;
+  border-right: 0px solid #434547 !important;
+}
+.wrapper {
+  display: inline-block;
+  height: 25px;
+}
+.now-date {
+  display: inline-block;
+}
+#div_date_demo3 {
+  min-width: 200px;
+}
+#div_date_demo3 #date_demo3 {
+  display: inline-block;
+  min-width: 170px;
+}
+i.i_orderd {
+  position: relative;
+  top: 10px;
+}

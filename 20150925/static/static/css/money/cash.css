@@ -1,0 +1,207 @@
+.cash-date {
+  margin-top: 17px;
+  padding-left: 60px;
+  position: relative;
+}
+input.from, input.to {
+  width: 120px;
+  height: 25px;
+  font-size: 14px;
+  border: 1px solid #434547;
+  margin: 2px 10px;
+  padding: 5px 10px;
+}
+button.export {
+  width: 120px;
+  height: 40px;
+  border-radius: 0px;
+  background-color: #434547;
+  margin: 0;
+}
+.cash-ed, .detail {
+  border:none;
+  line-height: 100px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 20px;
+  height: 100px;
+  padding-left: 60px;
+  background-color: #00db2f;
+}
+.cash-ed span {
+  font-size: 36px;
+  font-weight: 500;
+}
+.cash-detail {
+  margin-top: 50px;
+  width: 100%;
+}
+.cash-detail tr th {
+  border-top: none;
+  border-bottom: 1px solid #e4e4e4;
+}
+.cash-detail tr td {
+  height: 50px;
+}
+table.order-detail td:nth-child(2) {
+  width: inherit; 
+}
+a.look {
+  color: #000000;
+}
+a.del {
+  color: #f55641;
+}
+.cash-detail tr td, .cash-detail tr th {
+  padding-left: 50px;
+}
+.cash-detail tr td a+a {
+  margin-left: 20px;
+}
+.detail li {
+  margin-top: 20px;
+  line-height: 60px;
+  width: 462px;
+  height: 60px;
+  float: left;
+}
+.detail li span {
+  font-size: 36px;
+}
+.detail li:nth-child(2) {
+  width: 300px;
+}
+.detail {
+  line-height: 20px;
+}
+.detail li+li {
+  padding-left: 60px;
+  border-left: 1px solid #ffffff;
+}
+button.get-cash {
+  width: 120px;
+  position: absolute;
+  right: 20px;
+  margin: 0px;
+}
+table.order-detail td:nth-child(4) {
+  width: inherit;
+}
+
+div.all-detail {
+  width: 606px;
+  height: 456px;
+  font-size: 16px;
+  margin-left: 35%;
+  margin-top: 10%;
+  position: relative;
+  background-color: #ffffff;
+}
+div.all-detail .tip-title {
+  height: 50px;
+  padding-left: 20px;
+  font-size: 18px;
+  color: #666666;
+  line-height: 50px;
+  border-bottom: 1px solid #e4e4e4;
+}
+div.all-detail div.tip-detail {
+  height: 160px;
+  border-bottom: 1px solid #e4e4e4;
+}
+div.all-detail button.cash-tip-btn {
+  margin: 0px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 100px;
+  height: 40px;
+}
+div.all-detail div.tip-detail li {
+  width: 300px;
+  margin-top: 0px;
+}
+div.all-detail div.tip-detail li + li  {
+  margin-top: 15px;
+}
+div.all-detail div.tip-detail > div{
+  float: left;
+}
+div.all-detail div.tip-detail-left {
+  margin-left: 20px;
+  width: 300px;
+}
+div.all-detail div.tip-detail-right {
+  width: 238px;
+}
+div.all-detail li span{
+  display: inline-block;
+}
+div.all-detail div.tip-detail-left li span:first-child{
+  width: 84px;
+}
+div.all-detail div.tip-detail-left li span:last-child{
+  width: 200px;
+}
+div.all-detail div.tip-detail-right li span:first-child{
+  width: 80px;
+}
+div.all-detail div.tip-detail-right li span:last-child{
+  margin-left: 0px;
+  width: 186px;
+}
+div.all-detail img.tip-close {
+  position: absolute;
+  cursor: pointer;
+  top: 15px;
+  right: 20px;
+}
+div.tip-comm-title {
+  border-bottom: 0 !important;
+}
+div.comm-detail {
+  padding-top: 20px;
+  height: 145px !important;
+}
+.tip-detail:first-child {
+  margin-top: 20px;
+}
+span#comm-name {
+  position: relative;
+  margin-bottom: 20px;
+  top: -20px;
+}
+span#comm-pic-name {
+  position: relative;
+  top: -40px;
+}
+.in-tip-detail {
+  margin-top: 20px;
+}
+.get-cash-tip {
+  height: 40px;
+}
+.get-cash-background .del-tip .tip {
+  height: 130px;
+}
+.get-cash-tip input{
+  width: 237px;
+  font-size: 16px;
+  margin-left: 30px;
+  height: 35px;
+  padding-left: 10px;
+}
+.get-cash-tip {
+  margin-top: 30px;
+}
+.get-cash-tip + .get-cash-tip {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.get-cash-background .del-tip {
+  width: 390px;
+  height: 220px;
+}
+.get-cash-background .del-tip .off{
+  width: 208px;
+}

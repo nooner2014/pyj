@@ -1,0 +1,223 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <title>朋友街</title>
+  <link type="image/x-icon" rel="shortcut icon" href="../static/img/favicon.ico" />
+  <link href="../static/css/main.css" rel="stylesheet">
+  <link href="../static/css/money/cash.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="../static/jquery-date/dateRange.css">
+  <link rel="stylesheet" type="text/css" href="../static/jquery-date/monthPicker.css">
+  <script src="../static/js/jquery-1.11.3.js" type="text/javascript"></script>
+  <script src="../static/laydate/laydate.js"></script>
+  <script src="../static/js/main.js" type="text/javascript"></script>
+  <script type="text/javascript" src="../static/js/money/cash.js"></script>
+      <script type="text/javascript" src="../static/jquery-date/monthPicker.js"></script>
+  <script type="text/javascript" src="../static/jquery-date/dateRange.js"></script>
+  <script src="../static/js/money/cash.js" type="text/javascript"></script>
+</head>
+<body>
+  <div class="cash-background">
+    <div class="cash-detail">
+      <img src="../static/img/close.png" alt="" class='tip-close'>
+      <div class="tip-title">提现详情</div>
+      <div class="tip-detail">
+        <div class='tip-detail-left'>
+        <li><span>提现账户</span><span>natiala</span></li>
+        <li><span>手续费</span><span>3.00</span></li>
+        <li><span>提现方式</span><span>支付宝</span></li>
+        <li><span>提现时间</span><span>2015-08-17 20:09:12</span></li>
+        </div>
+        <div class='tip-detail-right'>
+        <li><span>提现金额</span><span>78.00</span></li>
+        <li><span>实到金额</span><span>23.00</span></li>
+        <li><span>提现状态</span><span>成功</span></li>
+        </div>
+      </div>
+      <button class="save cash-tip-btn">确定</button>
+    </div>
+  </div>
+  <div class="del-background">
+    <div class='del-tip'>
+      <div class="tip">是否删除此记录</div>
+      <span class='off'>取消</span>
+      <span class='on'>删除</span>
+    </div>
+  </div>
+  <!-- 最顶部的导航开始 -->
+  <nav class='top'>
+    <div class="top-content">
+      <li><a href="#">手机客户端</a></li>
+      <li><a href="#">帮助中心</a></li>
+      <li><a href="#">营销中心</a></li>
+      <li><a href="#">最新动态</a></li>
+      <li><a href="#">朋友街规则</a></li>
+    </div>
+  </nav>
+  <!-- 最顶部的导航结束 -->
+  <div class="main">
+    <div class="main-nav">
+      <img class="logo" src="../static/img/logo.png" alt="">
+      <span class="user">
+        <span class="user-name">yerad亚丽达服装旗舰店</span>
+        <img src="../static/img/triangle.png" alt="">
+        <span class='logout'>退出</span>
+      </span>
+      <div class='user-menu'>
+        <li>订单消息：<span>99</span></li>
+        <li>店铺消息：<span>99</span></li>
+        <li>系统消息：<span>99</span></li>
+      </div>
+    </div>
+    <div class="home">
+     <a href="../index.html">首页</a> 
+    </div>
+    <div class="content">
+      <div class="sidebar">
+        <div class="store">
+          <h2><i class="store sidebar"></i>我的店铺</h2>
+          <li><a href="../store/commodity.html">商品管理</a></li>
+          <li><a href="../store/order.html">订单管理</a></li>
+          <li><a href="../store/sale.html">销售统计</a></li>
+          <li><a href="../store/system.html">店铺设置</a></li>
+          <li><a href="../store/decorate.html">店铺装修</a></li>
+          <li><a href="../store/company.html">企业资料</a></li>
+        </div>
+        <div class="revenues">
+          <h2><i class="revenues sidebar"></i>我的收入</h2>
+          <li><a href="../money/all.html">我的总收入</a></li>
+          <li class='active'><a href="../money/cash.html">提现记录</a></li>
+        </div>
+        <div class="message">
+          <h2><i class="message sidebar"></i>我的消息</h2>
+          <li><a href="../message/store.html">店铺消息</a></li>
+          <li><a href="../message/sys.html">系统消息</a></li>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="cash-date">
+          提现日期 ：
+        <div class="wrapper">
+        <div class="ta_date" id="div_date_demo3">
+            <span class="date_title" id="date_demo3">2015-08-21 至 2015-09-07</span>
+            <a class="opt_sel" id="input_trigger_demo3" href="#">
+                <i class="i_orderd"></i>
+            </a>
+        </div>
+        </div>
+          <button class='save export'>导出明细</button>
+        </div>
+        <div class="cash-ed">
+        已提现：￥  <span>9999999</span>
+        </div>
+        <table class="order-detail cash-detail" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <th>提现金额</th>
+            <th>提现账户</th>
+            <th>提现方式</th>
+            <th>提现日期</th>
+            <th>操作</th>
+          </tr>
+          <tr>
+            <td>98.00</td>
+            <td>absoed</td>
+            <td>支付宝</td>
+            <td>2015-06-05</td>
+            <td>
+              <a href="javascript:void(0);" class='look'>查看</a>
+              <a href="javascript:void(0);" class='del'>删除</a>
+            </td>
+          </tr>
+          <tr>
+            <td>99.00</td>
+            <td>absoed</td>
+            <td>支付宝</td>
+            <td>2015-06-05</td>
+            <td>
+              <a href="javascript:void(0);" class='look'>查看</a>
+              <a href="javascript:void(0);" class='del'>删除</a>
+            </td>
+          </tr>
+          <tr>
+            <td>99.00</td>
+            <td>absoed</td>
+            <td>支付宝</td>
+            <td>2015-06-05</td>
+            <td>
+              <a href="javascript:void(0);" class='look'>查看</a>
+              <a href="javascript:void(0);" class='del'>删除</a>
+            </td>
+          </tr>
+          <tr>
+            <td>99.00</td>
+            <td>absoed</td>
+            <td>支付宝</td>
+            <td>2015-06-05</td>
+            <td>
+              <a href="javascript:void(0);" class='look'>查看</a>
+              <a href="javascript:void(0);" class='del'>删除</a>
+            </td>
+          </tr>
+          <tr>
+            <td>99.00</td>
+            <td>absoed</td>
+            <td>支付宝</td>
+            <td>2015-06-05</td>
+            <td>
+              <a href="javascript:void(0);" class='look'>查看</a>
+              <a href="javascript:void(0);" class='del'>删除</a>
+            </td>
+          </tr>
+          <tr>
+            <td>99.00</td>
+            <td>absoed</td>
+            <td>支付宝</td>
+            <td>2015-06-05</td>
+            <td>
+              <a href="javascript:void(0);" class='look'>查看</a>
+              <a href="javascript:void(0);" class='del'>删除</a>
+            </td>
+          </tr>
+          <tr>
+            <td>99.00</td>
+            <td>absoed</td>
+            <td>支付宝</td>
+            <td>2015-06-05</td>
+            <td>
+              <a href="javascript:void(0);" class='look'>查看</a>
+              <a href="javascript:void(0);" class='del'>删除</a>
+            </td>
+          </tr>
+          <tr>
+            <td>99.00</td>
+            <td>absoed</td>
+            <td>支付宝</td>
+            <td>2015-06-05</td>
+            <td>
+              <a href="javascript:void(0);" class='look'>查看</a>
+              <a href="javascript:void(0);" class='del'>删除</a>
+            </td>
+          </tr>
+          <tr>
+            <td>99.00</td>
+            <td>absoed</td>
+            <td>支付宝</td>
+            <td>2015-06-05</td>
+            <td>
+              <a href="javascript:void(0);" class='look'>查看</a>
+              <a href="javascript:void(0);" class='del'>删除</a>
+            </td>
+          </tr>
+        </table>
+          <div class="pagination">
+            <span class="page-num">1/1 <i class="page"></i></span>
+            <span class="prev">上一页</span>
+            <span class="next">下一页</span> 
+          </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="../static/laydate/friend.js"> </script>
+</body>
+</html>

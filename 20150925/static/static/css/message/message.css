@@ -1,0 +1,33 @@
+.msg-content {
+  margin: 20px 0 0 60px;
+}
+.msg-content h3 {
+  font-size: 16px;
+  color: #333333;
+  margin: 30px 0 20px 0 ;
+}
+.msg-content h4 {
+  color: #333333;
+  font-size: 12px;
+}
+.msg-content table.sys {
+  color: #999999;
+  font-size: 14px;
+  width: 100%;
+}
+.msg-content table.sys td{
+  height: 40px;
+}
+.msg-content table.sys td a{
+  color: #999999;
+}
+.msg-detail {
+  margin: 30px 0 0 60px;
+}
+.msg-detail p {
+  line-height: 30px;
+}
+.msg-detail h4 {
+  font-size: 16px;
+  margin: 0 0 10px 0;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <title></title>
+  <link href="../static/css/main.css" rel="stylesheet">
+  <link href="../static/css/message/message.css" rel="stylesheet">
+  <script src="../static/js/jquery-1.11.3.js" type="text/javascript"></script>
+</head>
+<body>
+  <!-- 最顶部的导航开始 -->
+  <nav class='top'>
+    <div class="top-content">
+      <li><a href="#">手机客户端</a></li>
+      <li><a href="#">帮助中心</a></li>
+      <li><a href="#">营销中心</a></li>
+      <li><a href="#">最新动态</a></li>
+      <li><a href="#">朋友街规则</a></li>
+    </div>
+  </nav>
+  <!-- 最顶部的导航结束 -->
+  <div class="main">
+    <div class="main-nav">
+      <img class="logo" src="../static/img/logo.png" alt="">
+      <span class="user">
+        <span class="user-name">yerad亚丽达服装旗舰店</span>
+        <img src="../static/img/triangle.png" alt="">
+        <span class='logout'>退出</span>
+      </span>
+    </div>
+    <div class="home">
+     <a href="../index.html">首页</a> 
+    </div>
+    <div class="content">
+      <div class="sidebar">
+        <div class="store">
+          <h2><i class="store sidebar"></i>我的店铺</h2>
+          <li><a href="../store/commodity.html">商品管理</a></li>
+          <li class='active'><a href="../store/order.html">订单管理</a></li>
+          <li><a href="../store/sale.html">销售统计</a></li>
+          <li><a href="../store/system.html">店铺设置</a></li>
+          <li><a href="../store/decorate.html">店铺装修</a></li>
+          <li><a href="../sotre/company">企业资料</a></li>
+        </div>
+        <div class="revenues">
+          <h2><i class="revenues sidebar"></i>我的收入</h2>
+          <li><a href="../money/all.html">我的总收入</a></li>
+          <li><a href="../money/cash.html">提现记录</a></li>
+        </div>
+        <div class="message">
+          <h2><i class="message sidebar"></i>我的消息</h2>
+          <li><a href="../message/store.html">店铺消息</a></li>
+          <li><a href="../message/sys.html">系统消息</a></li>
+        </div>
+      </div>
+      <div class="main-content">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
